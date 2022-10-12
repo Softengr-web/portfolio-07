@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display:700,900&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #FCF3E7;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 70px;
+}
+
+/* NavBar */ 
+.menu {
+  background-color: #FCF3E7!important;
+  -webkit-box-shadow: 0px 5px 13px -5px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 5px 13px -5px rgba(0,0,0,0.75);
+  box-shadow: 0px 5px 13px -5px rgba(0,0,0,0.75);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.navbar-brand {
+  font-weight: 900;
+  font-size: 30px;
+  margin-left: 15px;
+}
+.navbar-nav li a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.bg-light {
+  background-color: #FCF3E7!important;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+  opacity: 0.9;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0px;
+}
+
+/* Introdução */
+.introducao {
+  padding-top: 100px;
+  background-color: #FCF3E7;
+}
+.introducao h1 {
+  margin-top: 20px;
+  font-size: 80px;
+  font-weight: 900;
+  color: #050505;
+  letter-spacing: 2px;
+}
+.intro-conteudo {
+  margin-top: 30px;
+}
+.intro-conteudo h4 {
+  margin-left: 15px;
+}
+h1.circle::before {
+  content: '';
+  width: 85px;
+  height: 85px;
+  background-color: none;
+  border: 15px solid #FFD491;
+  border-radius: 100%;
+  display: flex;
+  margin-bottom: -100px;
+}
+.intro-texto {
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: #535353;
+}
+.btn-dark {
+  border-radius: 50px;
+  background-color: #050505;
+  border-color: #050505;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 30px;
+}
+.btn-dark i {
+  margin-right: 10px;
+}
+a.btn.btn-dark {
+  margin: 0px!important;
+}
+/* Parceiros */
+.parceiros {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+.parceiros i {
+  font-size: 70px;
+  padding: 20px 0px;
+  color: #565A97;
+}
+/* Quem Somos */
+.about {
+ padding: 0px;
+ margin-top: 100px;
+}
+.about-content h1 {
+  color: #050505;
+  font-size: 72px;
+  margin-left: 30px;
+  font-weight: 900;
+}
+.about-content,h4 {
+  color: #050505;
+}
+.about-content h4 {
+  padding-left: 25px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.about-content p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 35px;
+  color: #535353;
+}
+p.about-text {
+  margin-top: 20px!important;
+}
+h1.circle2::before {
+  content: '';
+  width: 65px;
+  height: 65px;
+  background-color: none;
+  border: 15px solid #FFD491;
+  border-radius: 100%;
+  display: flex;
+  margin-bottom: -75px;
+  letter-spacing: 2px;
+}
+.btn:not(:disabled):not(.disabled) {
+  margin-left: 35px;
+}
+.btn-danger {
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 30px;
+  background-color: #565A97;
+  border-color: #565A97;
+  border-radius: 50px;
+}
+.btn-danger:hover {
+  background-color: #3c3c58;
+  border-color: #3c3c58;
+}
+.btn-danger i {
+  padding-right: 10px;
+}
+div.col-sm.about-content {
+  align-self: center;
+}
+
+/* Serviços */
+.servicos {
+  background-color: #F6F6F6;
+  padding-top: 40px;
+  padding-top: 110px;
+  padding-bottom: 100px;
+}
+.servicos h1 {
+  color: #050505;
+  font-weight: 900;
+  font-size: 72px;
+  padding-bottom: 60px;
+}
+.servicos h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #050505;
+}
+
+.servicos-bg {
+  margin-bottom: 30px;
+}
+.servicos-conteudo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 40px;
+}
+.col-sm.servicos-bg {
+  margin-right: 15px;
+  -webkit-box-shadow: -1px 10px 47px -23px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 10px 47px -23px rgba(0,0,0,0.59);
+  box-shadow: -1px 10px 47px -23px rgba(0,0,0,0.59);
+}
+.servicos-conteudo i {
+  font-size: 28px;
+  padding-right: 10px;
+}
+.servicos-bg.green {
+  background-color: #72CEC1;
+}
+.servicos-bg.yellow{
+  background-color: #FED390;
+}
+.servicos-bg.orange {
+  background-color: #FF7F5C;
+}
+
+/* Contato */
+.btn.btn-success:not(:disabled):not(.disabled) {
+  margin-left: 0px;
+}
+.btn-success {
+  border-radius: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 25px;
+  padding-right: 30px;
+  background-color: #ff7f5c;
+  border-color: #ff7f5c;
+  border-radius: 50px;
+  margin-top: 15px;
+}
+form {
+  margin-top: 30px;
+}
+.btn-success:hover {
+  background-color: #ff7f5c;
+  border-color: #ff7f5c;
+  opacity: 0.9;
+}
+button.btn.btn-success i {
+  margin-right: 10px;
+}
+.contato {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contato h1 {
+  color: #050505;
+  font-weight: 900;
+  font-size: 72px;
+}
+.contato h4 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.form-control {
+  width: 90%;
+  border: 0px;
+  padding: 15px;
+  border-radius: 0px;
+  -webkit-box-shadow: -1px 10px 47px -23px rgba(0,0,0,0.59);
+  -moz-box-shadow: -1px 10px 47px -23px rgba(0,0,0,0.59);
+  box-shadow: -1px 10px 47px -23px rgba(0,0,0,0.59);
+  font-family: 'Montserrat', sans-serif;
+  color: #535353;
+}
+.form-group label {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.form-group textarea {
+  max-height: 90px;
+  min-height: 90px;
+}
+.img-fluid.contato-img {
+  margin-left: 30px;
+}
+
+/* Projeto */
+.project {
+  background-color: #000;
+  color: #fff;
+  margin: 0px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  border-bottom: 2px solid #3c3c58;
+}
+.project h1 {
+  margin: 0px;
+  font-size: 72px;
+  font-weight: 900;
+}
+.project span {
+  font-size: 72px;
+  font-weight: 900;
+  color: #513AA6;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #000;
+}
+footer a {
+  font-weight: 900;
+  font-size: 30px;
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+.footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer span {
+ display: flex;
+ font-family: 'Montserrat', sans-serif;
+ color: #535353;
+}
+
+/* MediaQuery */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .introducao {
+    padding-top: 80px;
+
+  }
+  .introducao h1 {
+    font-size: 72px;
+  }
+  .about-content h1 {
+    font-size: 60px;
+    margin: 0px;
+  }
+  .about-content p {
+    margin: 0px;
+  }
+  .about-content, h4 {
+    margin-left: 0px!important;
+    align-self: center;
+  }
+  .btn:not(:disabled):not(.disabled) {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .servicos h1 {
+    font-size: 60px;
+  }
+  .servicos-bg h3 {
+    font-size: 24px;
+  }
+  .about img {
+    margin-left: 15px;
+  }
+  .servicos-bg.green,.servicos-bg.yellow,.servicos-bg.orange  {
+    margin-left: 15px;
+  }
+  .servicos-conteudo h3 {
+    font-size: 20px;
+  }
+  .servicos {
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .contato {
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+  .contato h1 {
+    font-size: 60px;
+  }
+  .contato h4 {
+    margin-bottom: 10px;
+  }
+  form {
+    margin-top: 15px;
+  }
+  .form-control {
+    padding: 8px;
+  }
+  .project h1,  .project span {
+    font-size: 60px;
+  }
+  .img-fluid.contato-img {
+    margin-left: 0px;
+  }
+  .btn.btn-success:not(:disabled):not(.disabled) {
+    margin-top: 5px;
+  }
+}
+
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+  .introducao h1 {
+    font-size: 48px;
+  }
+  h1.circle::before {
+    width: 55px;
+    height: 55px;
+    margin-bottom: -55px;
+    border: 10px solid #FFD491;
+  }
+  .btn-dark {
+    padding: 8px 15px;
+  }
+  .introducao {
+    padding-top: 30px;
+  }
+  .intro-texto {
+    font-size: 16px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .parceiros {
+    margin-top: 60px;
+  }
+  .parceiros i {
+    font-size: 55px;
+  }
+  .about {
+    margin-top: 60px;
+   }
+  .about-content h1 {
+    font-size: 42px;
+    font-weight: 900;
+  }
+  .about-content, h4 {
+    margin-left: 0px;
+  }
+  p.about-text {
+    margin-top: 10px!important;
+    margin-bottom: 10px!important;
+    font-size: 16px;
+  }
+  h1.circle2::before {
+    width: 50px;
+    height: 50px;
+    margin-bottom: -50px; 
+    border: 10px solid #FFD491;
+  }
+  .servicos h1 {
+    font-size: 42px;
+    padding-bottom: 30px;
+  }
+  .servicos {
+    margin-top: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .servicos-conteudo h3 {
+    font-size: 1.58rem;
+  }
+  .contato {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .contato h1 {
+    font-size: 42px;
+  }
+  .img-fluid.contato-img {
+    margin: 0px;
+    display: none;
+  }
+  .form-control {
+    width: 100%;
+    padding: 15px; 
+  }
+  .form-group label {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  .form-group textarea {
+    max-height: 100px;
+    min-height: 100px;
+  }
+  .project h1, .project span {
+    font-size: 42px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .introducao{
+    margin-top: 80px;
+    padding: 0px;
+  }
+  .introducao h1 {
+    font-size: 72px;
+  }
+  .introducao img {
+    display: none;
+  }
+  .about {
+    padding: 0px;
+  }
+  .about {
+    margin-top: 70px;
+  }
+
+  .about-row {
+    padding-top: 70px;
+  }
+  .servicos {
+    margin-top: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+  .servicos h1 {
+  font-size: 60px;
+}
+  .contato {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+  .contato h1 {
+  font-size: 60px;
+}
+  .contato-img {
+    display: none;
+  }
+  .parceiros {
+    margin-top: 70px;
+  }
+  .about img {
+    display: none;
+  }
+  .about-content {
+    padding: 0px!important;
+    margin-left: 0px!important;
+  }
+  .about .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .about-content h1 {
+    font-size: 60px;
+  }
+  .project h1, .project span {
+    font-size: 58px;
+}
+}
+@media (max-width: 575.98px) { 
+
+  .introducao{
+    padding-top: 0px;
+  }
+  a.nav-link {
+    margin-left: 15px;
+  }
+
+  .introducao {
+    margin-top: 80px;
+  }
+  .introducao h1 {
+    font-size: 40px;
+  }
+  .intro-texto {
+    font-size: 16px;
+  }
+  img.img-fluid {
+    display: none;
+}
+  .parceiros {
+  margin-top: 50px;
+}
+.parceiros i {
+  font-size: 30px;
+}
+h1.circle::before {
+  width: 50px;
+  height: 50px;
+  margin-bottom: -50px; 
+  border: 8px solid #FFD491;
+}
+a.btn.btn-dark {
+  font-size: 12px;
+}
+.about-content h1 {
+  font-size: 36px;
+  margin-left: 15px;
+}
+.about-content p {
+  font-size: 16px;
+  margin-left: 15px;
+}
+.btn:not(:disabled):not(.disabled) {
+  margin-left: 15px;
+  font-size: 12px;
+}
+.about {
+  margin-top: 50px;
+}
+.servicos h1 {
+  font-size: 34px;
+}
+.servicos {
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+h1.circle2::before {
+  width: 50px;
+  height: 50px;
+  margin-bottom: -50px; 
+  border: 8px solid #FFD491;
+}
+.servicos h1 {
+  font-size: 34px;
+  margin-left: 15px;
+  padding-bottom: 40px;
+}
+.servicos h4 {
+  padding-left: 25px;
+}
+h3 {
+  font-size: 1.2rem;
+}
+.contato {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.contato h1 {
+    font-size: 34px;
+}
+.form-control {
+  width: 100%;
+}
+.btn:not(:disabled):not(.disabled) {
+  font-size: 12px;
+}
+.project span {
+  font-size: 32px;
+}
+.project h1 {
+  font-size: 33px;
+}
+.project {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer a {
+  font-size: 28px;
+}
+.footer span {
+  font-size: 12px;
+}
+}
+
+
+
